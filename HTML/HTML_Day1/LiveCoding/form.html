@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- THIS IS WHERE FORM STARTS -->
+  <h3>FORM</h3>
+  <hr>
+
+  <form action="#" method="GET">
+
+    <label for="firstName">First Name:</label>
+    <input required id="firstName" type="text">
+
+    <br>
+    <label>
+      Last Name:
+      <input type="text">
+    </label>
+
+    <br>
+    <label>
+      Age:
+      <input type="number" step="0.5" max="3">
+    </label>
+
+    <br>
+    <label>
+      Email:
+      <input type="email" name="" id="">
+    </label>
+    <br>
+    <label>
+      Password:
+      <input type="password">
+    </label>
+    <br>
+    <label>
+      Date:
+      <input type="date">
+    </label>
+    <br>
+    <label for="dropdown">choose your champion:</label>
+    <select size="5" multiple name="" id="dropdown">
+      <optgroup label="(choose one or more)">
+        <option value="">Cat</option>
+        <option value="">Dog</option>
+        <option value="">Alligator</option>
+        <option value="">Fish</option>
+        <option value="">Fish</option>
+        <option value="">Fish</option>
+      </optgroup>
+      
+    </select>
+
+    <br>
+    <br>
+
+    <label>
+      agree on terms
+      <input type="checkbox" name="" id="">
+    </label>
+    <label>
+      receive emails?
+      <input type="checkbox" name="" id="">
+    </label>
+
+    <br>
+
+    <fieldset>
+      <legend>Do you have a pet?</legend>
+      <label>
+        yes
+        <input type="radio" name="petQuestionRadio" id="">
+      </label>
+      <label>
+        no
+        <input type="radio" name="petQuestionRadio" id="">
+      </label>
+    </fieldset>
+    <br>
+
+    <label>
+      your image:
+      <input type="file" accept="image/png, image/jpeg">
+    </label>
+
+
+    <hr>
+    <input type="submit" value="Send">
+    <!-- <button type="submit">Send</button> -->
+    <input type="reset">
+  </form>
+
+</body>
+</html>
