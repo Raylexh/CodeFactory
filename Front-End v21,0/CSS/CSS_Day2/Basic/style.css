@@ -1,0 +1,50 @@
+* {
+  font-family: 'Happy Monkey', Arial;
+}
+
+.container {
+  width: 800px;
+  padding: 0 50px 0 50px;
+  margin: auto;
+}
+
+p, li {
+  color: #707070;
+}
+
+header{
+  text-align: center;
+}
+
+header h1 {
+  color: #DB0038;
+}
+
+header h3 {
+  color: #474747;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+  padding: 0 50p 0 50px;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  padding: 5px 0 5px 0;
+}
+
+span {
+  color: #f4b400;
+  font-size: 25px;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+}
